@@ -3,11 +3,37 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:id="@+id/vHasil"
-        android:layout_width="161dp"
-        android:layout_height="34dp"
-        android:layout_marginLeft="135dp"
-        android:layout_marginTop="300dp"
-        android:textColor="@color/black"
-        android:textSize="30sp" />
+        android:id="@+id/txtSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:text="Angka Pertama"
+        />
+    <EditText
+        android:id="@+id/angkaSatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10">
+    </EditText>
+    <TextView
+        android:id="@+id/txtDua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Angka Kedua"
+        android:layout_marginLeft="100dp"
+        />
+    <EditText
+        android:id="@+id/angkaDua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10" />
+    <Button
+    android:id="@+id/btnHasil"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="100dp"
+    android:text="HASIL" />
 </LinearLayout>

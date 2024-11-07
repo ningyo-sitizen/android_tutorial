@@ -2,39 +2,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/txtSatu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="150dp"
-        android:text="Angka Pertama"
-        />
-    <EditText
-        android:id="@+id/angkaSatu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:ems="10">
-    </EditText>
-    <TextView
-        android:id="@+id/txtDua"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Angka Kedua"
-        android:layout_marginLeft="100dp"
-        />
-    <EditText
-        android:id="@+id/angkaDua"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:ems="10" />
     <Button
     android:id="@+id/btnTambah"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginLeft="100dp"
     android:text="TAMBAH"
+        />
+    <Button
+        android:id="@+id/btnKali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Kali"
+        />
+    <Button
+        android:id="@+id/btnKurang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="KURSNG"
+        />
+    <Button
+        android:id="@+id/btnBagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="BAGI"
+        />
+    <Button
+        android:id="@+id/btnModulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="MODULO"
         />
 </LinearLayout>
