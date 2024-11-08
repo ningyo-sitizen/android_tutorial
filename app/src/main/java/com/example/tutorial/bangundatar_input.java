@@ -40,5 +40,13 @@ public class bangundatar_input extends Activity {
                 startActivity(intent);
             }
         });
+        ImageButton lingkaran= findViewById(R.id.lingkaran_btn);
+        lingkaran.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(bangundatar_input.this, lingkaran.class);
+                startActivity(intent);
+            }
+        });
     }
 }
