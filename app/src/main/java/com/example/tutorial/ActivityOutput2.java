@@ -11,7 +11,7 @@ public class ActivityOutput2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_output2);
-        TextView result = (TextView)findViewById(R.id.vHasil);
+        TextView result = findViewById(R.id.vHasil);
 // Mengambil nilai Intent dari activity sebelumnya, yakni Activity1
         Intent intent = getIntent();
 /* Mengambil nilai atribut yang diangkut Intent dari Activity1 lalu
