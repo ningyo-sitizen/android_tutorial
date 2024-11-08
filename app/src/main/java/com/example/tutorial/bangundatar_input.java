@@ -24,5 +24,13 @@ public class bangundatar_input extends Activity {
                 startActivity(intent);
             }
         });
+        ImageButton persegiPanjang_image= findViewById(R.id.persegiPanjang_btn);
+        persegiPanjang_image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(bangundatar_input.this, persegi_panjang.class);
+                startActivity(intent);
+            }
+        });
     }
 }

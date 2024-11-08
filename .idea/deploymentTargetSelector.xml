@@ -8,9 +8,6 @@
       <SelectionState runConfigName="ActivityAutoComplete">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="ActivityImageButton">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
       <SelectionState runConfigName="ActivityInput">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2024-11-08T09:50:01.302363Z">
@@ -26,6 +23,9 @@
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
       <SelectionState runConfigName="ActivityIntentFilter">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="bangundatar_input">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

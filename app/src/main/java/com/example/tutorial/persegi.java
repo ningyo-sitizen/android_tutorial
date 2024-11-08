@@ -15,7 +15,7 @@ public class persegi extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.persegi_process);
-        final EditText firstNum = (EditText)findViewById(R.id.sisi);
+        final EditText firstNum = findViewById(R.id.sisi);
         Button btnHasil = findViewById(R.id.btnHasil);
         btnHasil.setOnClickListener(new View.OnClickListener() {
             @Override

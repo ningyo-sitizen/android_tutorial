@@ -76,6 +76,9 @@
         <activity android:name=".persegi"
             android:exported="true">
         </activity>
+        <activity android:name=".persegi_panjang"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
