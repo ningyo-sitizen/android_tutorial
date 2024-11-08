@@ -12,7 +12,7 @@ public class ActivityImageButton extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.control_imagebutton);
-        imgButton =(ImageButton)findViewById(R.id.imageButton);
+        imgButton =findViewById(R.id.imageButton);
         imgButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/persegi_btn"
+        android:layout_width="123dp"
+        android:layout_height="108dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="592dp"
+        android:contentDescription="untuk masuk ke dalam fungsi persegi"
+        android:src="@drawable/persegi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/persegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="204dp"
+        android:text="Persegi"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/persegi_btn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/persegiPanjang_btn"
+        android:layout_width="246dp"
+        android:layout_height="98dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="456dp"
+        android:contentDescription="untuk masuk ke dalam fungsi persegi panjang"
+        android:src="@drawable/persegi_panjang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/persegipanjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="140dp"
+        android:text="Persegi Panjang"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/persegiPanjang_btn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/segitia_btn"
+        android:layout_width="234dp"
+        android:layout_height="136dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="284dp"
+        android:contentDescription="untuk masuk ke dalam fungsi persegi panjang"
+        android:src="@drawable/segitiga"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/segitiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="140dp"
+        android:text="segitiga"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/segitia_btn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageButton
+        android:id="@+id/lingkaran_btn"
+        android:layout_width="234dp"
+        android:layout_height="136dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="104dp"
+        android:contentDescription="untuk masuk ke dalam fungsi persegi panjang"
+        android:src="@drawable/lingkaran"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/lingkaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="140dp"
+        android:text="lingkaran"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/lingkaran_btn"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

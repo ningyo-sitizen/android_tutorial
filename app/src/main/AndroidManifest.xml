@@ -63,6 +63,19 @@
                 <data android:mimeType="message/rfc822"/>
             </intent-filter>
         </activity>
+        <activity android:name=".bangundatar_input"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".bangun_datar_output"
+            android:exported="true">
+        </activity>
+        <activity android:name=".persegi"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
