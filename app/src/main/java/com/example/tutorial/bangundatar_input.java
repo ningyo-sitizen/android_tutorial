@@ -20,7 +20,8 @@ public class bangundatar_input extends Activity {
         persegi_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(bangundatar_input.this, persegi.class);
+                Intent intent = new Intent(bangundatar_input.this, Bangun_datar_process.class);
+                intent.putExtra("tipe","persegi");
                 startActivity(intent);
             }
         });
@@ -28,7 +29,8 @@ public class bangundatar_input extends Activity {
         persegiPanjang_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(bangundatar_input.this, persegi_panjang.class);
+                Intent intent = new Intent(bangundatar_input.this, Bangun_datar_process.class);
+                intent.putExtra("tipe","persegipanjang");
                 startActivity(intent);
             }
         });
@@ -36,7 +38,8 @@ public class bangundatar_input extends Activity {
         segitiga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(bangundatar_input.this, segitiga.class);
+                Intent intent = new Intent(bangundatar_input.this, Bangun_datar_process.class);
+                intent.putExtra("tipe","segitiga");
                 startActivity(intent);
             }
         });
@@ -44,7 +47,8 @@ public class bangundatar_input extends Activity {
         lingkaran.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(bangundatar_input.this, lingkaran.class);
+                Intent intent = new Intent(bangundatar_input.this, Bangun_datar_process.class);
+                intent.putExtra("tipe","lingkaran");
                 startActivity(intent);
             }
         });

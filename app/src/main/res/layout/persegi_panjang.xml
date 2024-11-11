@@ -15,6 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/persegi_panjang" />
 
+    />
+
     <TextView
         android:id="@+id/persegipanjang"
         android:layout_width="wrap_content"
@@ -32,7 +34,7 @@
         android:layout_marginEnd="136dp"
         android:layout_marginBottom="460dp"
         android:ems="10"
-        android:hint="nilai panjang"
+        android:hint="nilai A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
@@ -45,7 +47,7 @@
         android:layout_marginEnd="132dp"
         android:layout_marginBottom="404dp"
         android:ems="10"
-        android:hint="nilai lebar"
+        android:hint="nilai B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 

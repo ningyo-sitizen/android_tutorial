@@ -85,6 +85,9 @@
         <activity android:name=".lingkaran"
             android:exported="true">
         </activity>
+        <activity android:name=".Bangun_datar_process"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
